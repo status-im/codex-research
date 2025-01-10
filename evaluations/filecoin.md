@@ -26,8 +26,6 @@ Dagger. It is not meant to be a criticism of Filecoin.
 - Filecoin requires its own very specific blockchain, which influences a lot
   of its design. There is tight coupling between the blockchain, storage
   accounting, proofs and markets.
-- Proof of spacetime is much more complex than simple challenges, and only
-  required to make the blockchain work (§3.3, §6.2)
 - A miners influence is proportional to the amount of storage they're
   providing (§1.2), which is an incentive to become big. This could lead to
   the same centralization issues that plague Bitcoin.
@@ -46,3 +44,6 @@ Dagger. It is not meant to be a criticism of Filecoin.
   attacks.
 - The addition of smart contracts (§7.1) feels like an unnecessary
   complication.
+- The data are stored in a non-readable (sealed) format (§3.4.2).
+  If the hosts doesn't store data in a duplicated, plain format,
+  the unsealing required to read them take a long time (1-5 hours).
