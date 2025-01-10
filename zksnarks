@@ -1,0 +1,11 @@
+# zkSNARKs Compression for PoR Proposal
+
+Step 1
+Choose a SNARK and a curve
+Select Elliptic, Polynomial or Finite Field Arithmetic
+
+Step 2
+Select constraint system interface: ark-curves, ark-relations, ark-snark
+
+Step 3
+Choose cryptographic primitives and associated proof systems
